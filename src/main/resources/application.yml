@@ -1,2 +1,8 @@
 server:
   port: 8089
+  
+camel:
+  servlet:
+    mapping:
+      context-path: /camel/* 
+    
