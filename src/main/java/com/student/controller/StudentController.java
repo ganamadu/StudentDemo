@@ -23,16 +23,19 @@ public class StudentController {
 	
 	@PostMapping
 	public Student save(@RequestBody Student student) {
+		System.out.println("Called the save Student method....");
 		return studentService.save(student);
 	}
 	
 	@GetMapping
 	public List<Student> getStudents() {
+		System.out.println("Called the getStudents List method....");
 		return studentService.getStudents();
 	}
 	
 	@GetMapping("/{sno}")
 	public Student getStudentById(@PathVariable Integer sno) {
+		System.out.println("Called the getStudentById method....");
 		return studentService.getStudentById(sno);
 	}
 	
