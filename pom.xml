@@ -11,6 +11,7 @@
 	</parent>
 	<groupId>com.studetn</groupId>
 	<artifactId>StudentDemo</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>StudentDemo</name>
 	<description>Demo project for Spring Boot</description>
