@@ -1,5 +1,7 @@
-#server:
+server:
   #port: 8089
+  servlet:
+    context-path=/stud:
   
   
 camel:
