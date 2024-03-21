@@ -18,6 +18,9 @@
 	<properties>
 		<java.version>17</java.version>
 		<camel.version>3.15.0</camel.version>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+	  <sonar.login>admin</sonar.login>
+	  <sonar.password>sonar</sonar.password>
 	</properties>
 	<dependencies>
 		<dependency>
