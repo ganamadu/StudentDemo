@@ -36,8 +36,6 @@ public class StudentService {
 		stud.setSname("Rishith");
 		stud.setAge(7);
 		studList.add(stud);
-		System.out.println("Service completed..");
-		System.out.println("Service completed..");
 		return studList;
 	}
 	public Student getStudentById(Integer sno) {
@@ -46,8 +44,6 @@ public class StudentService {
 		stud.setSno(sno);
 		stud.setSname("Ganapathi");
 		stud.setAge(40);
-		System.out.println("Service completed..");
-		System.out.println("Service completed..");
 		return stud;
 	}
 
