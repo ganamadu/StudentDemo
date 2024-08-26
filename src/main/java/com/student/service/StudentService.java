@@ -39,10 +39,10 @@ public class StudentService {
 		return studList;
 	}
 	public Student getStudentById(Integer sno) {
-		LOGGER.info("StudentService: call the getStudentById method");
+		LOGGER.info("StudentService: call the getStudentById method sno: "+sno);
 		Student stud = new Student();
 		stud.setSno(sno);
-		stud.setSname("Ganapathi");
+		stud.setSname("Ganapathi Madu");
 		stud.setAge(40);
 		return stud;
 	}
